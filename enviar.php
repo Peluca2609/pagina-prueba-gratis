@@ -39,6 +39,6 @@ $carta .= " Padezco de: $checkbox6 \n";
 $carta .= " Padezco de: $checkbox7";
 // Enviando Mensaje
 mail($destinatario, $asunto, $carta);
-header('Location:enviar1.php');
+header('Location:mensaje.html');
 
 ?>
