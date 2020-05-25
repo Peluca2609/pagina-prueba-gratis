@@ -18,7 +18,7 @@ $checkbox5 = $_POST["checkbox5"];
 $checkbox6 = $_POST["checkbox6"];
 $checkbox7 = $_POST["checkbox7"];
 // Datos para el correo
-$destinatario = "asisteterrhh@falumsa.com.pe";
+$destinatario = "javiergalvezsordones@gmail.com";
 $asunto = "DC:Tamizaje por COVID-19";
 
 $carta = "De: $Nombre \n";
@@ -39,6 +39,6 @@ $carta .= " Padezco de: $checkbox6 \n";
 $carta .= " Padezco de: $checkbox7";
 // Enviando Mensaje
 mail($destinatario, $asunto, $carta);
-header('Location:mensaje.html');
+header('Location: mensaje.html');
 
 ?>
