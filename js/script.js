@@ -41,6 +41,7 @@ $(document).ready(function(){
         } else{
             $('#talla').css("border-bottom-color", "#d1d1d1")
         }
+
         // ENVIANDO MENSAJE ============================
         if( errores == '' == false){
             var mensajeModal = '<div class="modal_wrap">'+
